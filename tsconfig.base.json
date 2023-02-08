@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@store/cart": ["cart/src/index.ts"]
+      "@store/cart": ["cart/src/index.ts"],
+      "@store/shared/ui": ["shared/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
