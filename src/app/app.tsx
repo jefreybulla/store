@@ -1,4 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
+// @ts-ignore
 import { RoutesCart } from 'cart';
 import { Route, Routes } from 'react-router-dom';
 import Shop from './shop/shop';
@@ -10,7 +11,9 @@ export function App() {
     <>
       <Routes>
         <Route path="/" element={<Shop />}></Route>
+        {/* 
         <Route path="/cart" element={<RoutesCart />}></Route>
+        */}
       </Routes>
     </>
   );
