@@ -3,6 +3,8 @@ I am getting an error importing local libraries. E.g.: `import { Banner } from '
 
 I suspect the issue relates to webpack imports/exports: https://webpack.js.org/guides/package-exports/
 
+Note: I chose webpack as the bundler when creating the local library via Nx generators
+
 Using vite instead of webpack works https://github.com/nrwl/nx-recipes/tree/main/standalone-react-app
 
 Problem could be using shared/ui instead of ui ?
