@@ -1,5 +1,5 @@
 ## Important
-I am getting an error importing local libraries such as `import { Banner } from 'shared/ui'`
+I am getting an error importing local libraries. E.g.: `import { Banner } from 'shared/ui'`
 
 I suspect the issue relates to webpack imports/exports: https://webpack.js.org/guides/package-exports/
 
@@ -13,7 +13,7 @@ Problem could be using shared/ui instead of ui ?
 ```
 npm install -g nx
 ```
-# Install with project
+# Install project
 ```
 npm install
 ```
